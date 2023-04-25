@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on (›´ω`‹ )</title>
+    <link>https://komacyan.github.io/komacyan-blog/post/</link>
+    <description>Recent content in Posts on (›´ω`‹ )</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>2022-{{ YEAR }}</copyright>
+    <lastBuildDate>Tue, 25 Apr 2023 22:08:25 +0800</lastBuildDate><atom:link href="https://komacyan.github.io/komacyan-blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>无尽黄昏的迷途教室</title>
+      <link>https://komacyan.github.io/komacyan-blog/post/%E6%97%A0%E5%B0%BD%E9%BB%84%E6%98%8F%E7%9A%84%E8%BF%B7%E9%80%94%E6%95%99%E5%AE%A4/</link>
+      <pubDate>Tue, 25 Apr 2023 22:08:25 +0800</pubDate>
+      
+      <guid>https://komacyan.github.io/komacyan-blog/post/%E6%97%A0%E5%B0%BD%E9%BB%84%E6%98%8F%E7%9A%84%E8%BF%B7%E9%80%94%E6%95%99%E5%AE%A4/</guid>
+      
+        <description>这是一座因黄昏而闻名的岛，不少摄影爱好者的一生中都在这座岛留下过足迹，林杗也是这其中的一员。在父亲的影响下，他很早便接触了摄影，并作为爱好一直在拍摄一些作品。这一年林杗顺利从高中毕业，这之后三个月空档期的第一站便是这座当地人称其为“初更”的岛。</description>
+      
+    </item>
+    
+  </channel>
+</rss>

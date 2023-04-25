@@ -1,0 +1,99 @@
+baseURL = 'https://komacyan.github.io/komacyan-blog/'
+languageCode = 'zh-cn'
+title = '(›´ω`‹ )'
+description = "123"
+theme = "anatole"
+copyright = "2022-{{ YEAR }}"
+
+#上为默认，下为模板文件复制
+
+# theme as hugo module
+#theme = "github.com/lxndrblz/anatole"
+# theme as git submodule
+
+summarylength = 1
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# Localized dates requires Hugo version 0.87.0
+localizedDates = true
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+
+[params]
+title = "小鞠"
+author = "KomacyaN"
+description = "一直卖萌就好了~"
+profilePicture = "/komacyan-blog/images/komari.jpg"
+displayMode = "dark"
+singleDateFormat = "2/1/2006"
+indexDateFormat = "2/1/2006"
+listDateFormat = "2/1/2006"
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:koshigayakomari@outlook.com"
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/komacyan"
+[[params.socialIcons]]
+icon = "fab fa-bilibili"
+title = "bilibili"
+url = "https://space.bilibili.com/437962004"
+
+[menu]
+[[menu.main]]
+name = "首页"
+identifier = "home"
+weight = 100
+url = "/"
+[[menu.main]]
+name = "标签"
+identifier = "tags"
+weight = 200
+url = "/tags/"
+[[menu.main]]
+name = "文章"
+identifier = "post"
+weight = 250
+url = "/categories/post/"
+[[menu.main]]
+name = "关于"
+weight = 300
+identifier = "about"
+url = "/about/"
+
+[math]
+enable = false
+use = "katex" 
