@@ -62,7 +62,7 @@ listDateFormat = "2/1/2006"
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:koshigayakomari@outlook.com"
+url = "mailto:im@komacyan.moe"
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
